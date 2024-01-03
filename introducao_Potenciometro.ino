@@ -11,4 +11,5 @@ void loop()
   pot = analogRead(A1); //potenciomentro na entrada analógica 1
   Serial.println(pot); //printar na tela os dados do potenciometro que vão de 0 até 1023 são 1024 valores
   delay(1);
+  
 }
